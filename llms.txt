@@ -1,0 +1,47 @@
+# LearnCraft EDU — llms.txt
+# AI-powered curriculum authoring and LMS platform
+# https://learncraft.mediasurf.ca
+
+## Platform Overview
+LearnCraft EDU is an AI-powered curriculum authoring and learning management platform.
+It offers two paths: Marketplace (create & sell courses) and Enterprise (branded corporate LMS).
+
+## Key Pages
+- Home: https://learncraft.mediasurf.ca/
+- Marketplace: https://learncraft.mediasurf.ca/marketplace — Create. Sell. Earn. For freelance instructors.
+- Enterprise: https://learncraft.mediasurf.ca/enterprise — Train. Track. Transform. For corporate L&D teams.
+- Browse Courses: https://learncraft.mediasurf.ca/marketplace/courses — Public course storefront.
+- Plans & Pricing: https://learncraft.mediasurf.ca/plans
+- Terms: https://learncraft.mediasurf.ca/terms
+- Privacy: https://learncraft.mediasurf.ca/privacy
+
+## Core Features
+- AI Course Outline Generator: transforms topics into structured lesson plans
+- 20+ interactive content block types (video, quiz, flip cards, code demos, etc.)
+- Drag-and-drop course builder — no coding required
+- Built-in WCAG 2.1 accessibility audits
+- SCORM & xAPI export for any LMS
+- Engagement analytics with visual heatmaps
+- White-label enterprise portal with SSO/SCIM
+- Stripe Connect marketplace payouts (80% revenue share for instructors)
+
+## For Instructors (Marketplace)
+- Create courses with AI assistance
+- Set your own price (free to $99.99+)
+- List on marketplace reaching learners
+- Earn 80% revenue share via Stripe
+- Real-time sales dashboard and analytics
+
+## For Enterprise / Business
+- Deploy a branded corporate LMS in days
+- SSO (SAML/OIDC) + SCIM provisioning
+- Role-based learning paths
+- Compliance tracking and certification management
+- Manager reporting dashboard
+- HRIS integrations (Workday, BambooHR, Azure AD, Okta)
+
+## Technical
+- Built with Vue 3, Vite, Firebase
+- SPA with server-side meta via @unhead/vue
+- JSON-LD structured data for SEO
+- PWA-ready with manifest and service worker

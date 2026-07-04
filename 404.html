@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found — LearnCraft EDU</title>
+    <meta name="description" content="The page you're looking for doesn't exist. Return to LearnCraft EDU — AI-powered curriculum authoring and LMS platform." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="https://learncraft.mediasurf.ca/404.html" />
+    <script type="text/javascript">
+      // Simple redirect for Single Page Apps (SPA) on static hosting
+      // If someone refreshes a /route/ like /login, it loads this 404.html page.
+      // We convert the path into a query parameter and redirect back to index.html
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&') 
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, l.pathname.length - 1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="text/javascript">
+      // If the URL has no query but looks like a route, handle it
+      var path = window.location.pathname;
+      if (path !== '/' && !path.includes('.') && window.location.search === '') {
+        window.location.replace('/?/' + path.replace(/^\//, '').replace(/&/g, '~and~') + window.location.hash);
+      }
+    </script>
+  </head>
+  <body>
+    Loading...
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>LearnCraft EDU</ShortName>
+  <Description>Search courses on LearnCraft EDU marketplace</Description>
+  <Url type="text/html" method="get"
+       template="https://learncraft.mediasurf.ca/marketplace/courses?search={searchTerms}"/>
+  <Image width="16" height="16" type="image/svg+xml">https://learncraft.mediasurf.ca/favicon.svg</Image>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>https://learncraft.mediasurf.ca/marketplace/courses</moz:SearchForm>
+</OpenSearchDescription>
